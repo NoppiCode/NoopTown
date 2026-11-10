@@ -1,0 +1,20 @@
+{
+  "name": "Fuchsi im Sternenwald",
+  "short_name": "Fuchsi",
+  "description": "Ein Jump-and-Run für Kinder ab 6 Jahren: Sterne sammeln, hüpfen und die Zielfahne erreichen.",
+  "lang": "de",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "landscape",
+  "background_color": "#1b1f5e",
+  "theme_color": "#6cc8ff",
+  "categories": ["games", "kids"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
